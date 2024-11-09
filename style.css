@@ -1,0 +1,558 @@
+.br {
+    border: 3px solid red;
+}
+
+.bk {
+    border: 3px solid black;
+}
+
+.by {
+    border: 3px solid gold;
+}
+
+.bg {
+    border: 3px solid green;
+}
+
+.bb {
+    border: 3px solid blue;
+}
+
+.bm {
+    border: 3px solid magenta;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.width {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.navbar {
+    padding: 0 100px;
+    height: 100px;
+}
+
+.collapse ul li {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.collapse ul li:hover {
+    color: blueviolet;
+}
+
+.h-70 {
+    height: 60px;
+}
+
+.height {
+    height: 700px;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.first-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.first-left h1 {
+    width: 100%;
+    /* border: 3px solid blue; */
+    z-index: 111111;
+}
+
+.col-4 {
+    height: 300px;
+
+}
+
+.first-right img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.second-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    background-color: floralwhite;
+    /* border: 2px solid red; */
+}
+
+.text {
+    height: 700px;
+    padding-left: 50px;
+
+}
+
+.img {
+    height: auto;
+    position: relative;
+    /* border: 5px solid red; */
+}
+
+.img img {
+
+    position: absolute;
+    top: -40px;
+    /* border: 5px solid red; */
+    margin: 0 !important;
+
+}
+
+.third-section {
+    position: relative;
+    margin-top: 400px;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.third-left {
+    height: auto;
+
+
+}
+
+.third-right {
+    height: auto;
+    padding-left: 80px;
+}
+
+.third-text {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    z-index: -11111;
+    left: 110px;
+    background-color: rgb(205, 161, 245);
+}
+
+.card-div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 110px;
+    bottom: -70px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(72, 72, 172);
+}
+
+.fourth-section {
+
+    min-height: 950px;
+    margin-top: 200px;
+
+}
+
+.fourth-left {
+    height: auto;
+    padding-left: 180px;
+}
+
+.fourth-right {
+    height: auto;
+}
+
+.fourth-right img {
+    width: 110%;
+    height: 100%;
+
+}
+
+.fourth-card-con {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+    /* border: 2px solid red; */
+}
+
+.card-one {
+    width: 380px;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+
+.up {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    border-bottom: 1px solid rgba(169, 163, 163, 0.738);
+
+}
+
+.fifth-section {
+    min-height: 100vh;
+    /* border: 12px solid rgb(0, 4, 255); */
+}
+
+.fifth-top {
+    height: auto;
+    /* border: 12px solid red; */
+}
+
+.fifth-top span {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(143, 47, 234);
+}
+
+.fifth-top h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.fifth-top p {
+    /* width: 45%; */
+    color: gray;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.fifth-card-con {
+    height: auto;
+
+}
+
+.fifth-card {
+    /* min-height: 450px;
+    width: 550px; */
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+
+    /* border: 2px solid gold; */
+}
+
+
+
+.fifth-card img {
+    height: 100%;
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.fifth-card img:hover {
+    scale: 1.1;
+    transition: .5s all ease-in-out;
+}
+
+.sixth-section {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid red; */
+}
+
+.sixth-left {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* padding-left: 50px; */
+}
+
+.sixth-left span {
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(118, 42, 232);
+}
+
+.sixth-left h1 {
+
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sixth-left p {
+    padding-top: 20px;
+}
+
+.sixth-left button {
+    padding: 15px 35px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(104, 10, 255);
+    border-radius: 30px;
+}
+
+.sixth-right {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sixth-right img {
+    width: 50%;
+    position: absolute;
+}
+
+.seventh-section {
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seventh-top {
+    min-height: 300px;
+
+}
+
+.seventh-top span {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgb(131, 40, 216);
+}
+
+.seventh-top h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.seventh-top p {
+    font-size: 20px;
+    padding-top: 20px;
+    /* font-weight: bold; */
+    color: rgb(165, 159, 159);
+    text-align: center;
+}
+
+.seventh-bottom {
+    height: auto;
+    width: 90%;
+    /* border: 5px solid red; */
+}
+
+.bottom-left {
+    height: 550px;
+    background: url(blog-home-two.png);
+    background-size: cover;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+.text{
+    height: 550px;
+    z-index: 11111;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    /* border: 3px solid red; */
+}
+.text h1{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.bottom-right {
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 90px;
+}
+
+.cards {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.55);
+}
+
+.cards span {
+    color: rgb(136, 40, 227);
+}
+
+.cards h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards p {
+    color: gray;
+    padding-top: 20px;
+}
+.eight-section{
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e9edf4 ;
+}
+/* .row{
+    height: 600px;
+} */
+.card1 a{
+    color: gray;
+    text-decoration: none;
+    line-height: 40px;
+
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .img img {
+        position: absolute;
+        top: -180px;
+        /* border: 5px solid red; */
+        margin: 0 !important;
+        width: 400px;
+    }
+
+    .third-section {
+        margin-top: 200px;
+    }
+
+
+
+    .third-left img {
+        width: 90%;
+    }
+
+    .empty {
+        display: none;
+    }
+
+    .card-div {
+        display: none;
+    }
+
+    .third-right {
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 0;
+        padding-top: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .third-right h1 {
+        text-align: center;
+    }
+
+    .third-right p {
+        text-align: center;
+    }
+
+    .third-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third-text h2 {
+        text-align: center;
+    }
+
+
+    .fourth-left {
+        padding-left: 0;
+
+    }
+
+    .fourth-left span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourth-left h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourth-left p {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .sixth-right {
+        height: 450px;
+        position: relative;
+    }
+
+    .sixth-right img {
+        width: 350px;
+        position: absolute;
+        top: 50px !important;
+        left: 30px;
+    }
+
+
+
+
+
+
+}
